@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Blocks",
+  "description": "Open the current GitHub repo in the Blocks editor on githubnext.com",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    }
+  },
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "permissions": ["tabs"]
+}
